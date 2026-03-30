@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-03-30T18:49:21.920539+00:00",
+  "model": "gpt-3.5-turbo",
+  "results": [
+    {
+      "difficulty": "EASY",
+      "task_idx": 0,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "EASY",
+      "task_idx": 1,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "EASY",
+      "task_idx": 2,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "EASY",
+      "task_idx": 3,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "EASY",
+      "task_idx": 4,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "MEDIUM",
+      "task_idx": 0,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "MEDIUM",
+      "task_idx": 1,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "MEDIUM",
+      "task_idx": 2,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "MEDIUM",
+      "task_idx": 3,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "MEDIUM",
+      "task_idx": 4,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "HARD",
+      "task_idx": 0,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "HARD",
+      "task_idx": 1,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "HARD",
+      "task_idx": 2,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "HARD",
+      "task_idx": 3,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    },
+    {
+      "difficulty": "HARD",
+      "task_idx": 4,
+      "prompt": "",
+      "reward": 0.0,
+      "error": "Failed to reset environment: HTTPConnectionPool(host='localhost', port=7860): Max retries exceeded with url: /reset (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=7860): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+    }
+  ],
+  "summary": {
+    "EASY": {
+      "count": 5,
+      "avg_reward": 0.0,
+      "max_reward": 0.0,
+      "min_reward": 0.0
+    },
+    "MEDIUM": {
+      "count": 5,
+      "avg_reward": 0.0,
+      "max_reward": 0.0,
+      "min_reward": 0.0
+    },
+    "HARD": {
+      "count": 5,
+      "avg_reward": 0.0,
+      "max_reward": 0.0,
+      "min_reward": 0.0
+    }
+  }
+}

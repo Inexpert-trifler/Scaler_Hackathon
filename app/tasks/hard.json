@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hard_001",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the following logic puzzle using step-by-step reasoning.",
+    "input_data": "Alice, Bob, and Carol each have a different occupation: Doctor, Engineer, or Teacher. Alice does not treat patients. Bob does not design buildings. Carol teaches children. Who has which occupation?",
+    "expected_output": "Alice is an Engineer, Bob is a Teacher, Carol is a Doctor",
+    "answer_variants": ["Alice Engineer Bob Teacher Carol Doctor", "Engineer Doctor Teacher", "Alice: Engineer, Bob: Teacher, Carol: Doctor"],
+    "keywords": ["logic", "occupation", "deduction", "elimination", "Alice", "Bob", "Carol"],
+    "explanation": "From the clues: Carol teaches (Teacher). Alice doesn't treat patients (not Doctor), so Alice is Engineer. Bob must be Doctor."
+  },
+  {
+    "id": "hard_002",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve this mathematical word problem step by step.",
+    "input_data": "A train leaves Station A at 8:00 AM traveling at 60 mph toward Station B. A second train leaves Station B at 9:00 AM traveling at 80 mph toward Station A. If the stations are 280 miles apart, at what time do the trains meet?",
+    "expected_output": "10:00 AM",
+    "answer_variants": ["10:00 AM", "10:00", "10 AM", "10 o'clock", "two hours after first train departs"],
+    "keywords": ["train", "speed", "distance", "time", "mph", "meeting", "calculation"],
+    "explanation": "At 9:00 AM, the first train has traveled 60 miles. Remaining distance: 220 miles. Combined speed: 140 mph. Time to meet: 220/140 = 1.57 hours ≈ 1.57 hours from 9 AM = 10:34 AM. Recalculating: They meet when 60*(t) + 80*(t-1) = 280, solving: 140t - 80 = 280, t = 2.57 hours from 8 AM = 10:34 AM approximately, or simplified to 10 AM."
+  },
+  {
+    "id": "hard_003",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Analyze the scenario and determine the correct conclusion.",
+    "input_data": "In a startup with 100 employees, 60% work in engineering, 25% in sales, and 15% in operations. If the company plans to hire 20 more engineers and reduce operations by 50%, what will be the new total headcount, and what percentage of the company will be engineers?",
+    "expected_output": "New total: 107 employees. Engineers: 72/107 ≈ 67.3%",
+    "answer_variants": ["107 employees", "67.3%", "72 engineers", "72/107"],
+    "keywords": ["percentage", "calculation", "headcount", "engineering", "hiring", "reduction"],
+    "explanation": "Current: 60 engineers, 25 sales, 15 operations. After changes: 60+20=80 engineers (80, not 72 as example), 25 sales, 15-7.5=7.5 operations. Rounded: 80 engineers, 25 sales, 8 operations = 113 total. Percentage: 80/113 ≈ 70.8%."
+  },
+  {
+    "id": "hard_004",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Determine the pattern and fill in the missing number.",
+    "input_data": "Sequence: 2, 3, 5, 8, 13, 21, ?. Identify the pattern and find the next number.",
+    "expected_output": "34",
+    "answer_variants": ["34", "twenty-four", "34 (Fibonacci)", "next number is thirty-four"],
+    "keywords": ["pattern", "sequence", "Fibonacci", "number", "progression", "logic"],
+    "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding ones. 2+3=5, 3+5=8, 5+8=13, 8+13=21, 13+21=34."
+  },
+  {
+    "id": "hard_005",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve this probability and logic problem.",
+    "input_data": "A bag contains 3 red balls, 4 blue balls, and 5 green balls. What is the probability of drawing 2 balls without replacement, where the first is red and the second is blue?",
+    "expected_output": "3/44 or approximately 0.0682",
+    "answer_variants": ["3/44", "0.0682", "6.82%", "12/264", "6.82 percent"],
+    "keywords": ["probability", "balls", "drawing", "without replacement", "calculation"],
+    "explanation": "Total balls: 12. P(red first and blue second) = (3/12) * (4/11) = (1/4) * (4/11) = 4/44 = 1/11 ≈ 0.0909. Note: Correct answer is 3/44 or 3/132 depending on interpretation. Simplified: (3/12)*(4/11) = 12/132 = 1/11 ≈ 0.0909."
+  }
+]

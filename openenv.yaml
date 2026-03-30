@@ -1,0 +1,68 @@
+# PromptGym — OpenEnv-Core Manifest
+name: promptgym
+version: "1.0.0"
+description: "Multi-difficulty prompt engineering environment for optimizing LLM prompts"
+
+dependencies:
+  - openenv-core>=0.2.0
+  - fastapi>=0.135.0
+  - pydantic>=2.0.0
+
+server:
+  entry_point: "server.app:app"
+  port: 7860
+  host: "0.0.0.0"
+
+client:
+  entry_point: "client:PromptGymEnv"
+
+environment:
+  entry_point: "server.environment:PromptGymEnvironment"
+  action: "models:PromptAction"
+  observation: "models:PromptObservation"
+  state: "models:PromptState"
+
+features:
+  - "Multi-level task difficulty (EASY, MEDIUM, HARD)"
+  - "Semantic grading with multiple metrics"
+  - "Mock LLM execution for testing"
+  - "Pluggable real LLM integration (OpenAI, Together)"
+  - "Websocket support for real-time interaction"
+
+tasks:
+  - type: "summarization"
+    difficulty: "EASY"
+    count: 3
+  - type: "json_conversion"
+    difficulty: "MEDIUM"
+    count: 3
+  - type: "reasoning"
+    difficulty: "HARD"
+    count: 3
+
+endpoints:
+  - method: "POST"
+    path: "/reset"
+    params:
+      - name: "difficulty"
+        type: "string"
+        values: ["EASY", "MEDIUM", "HARD"]
+        optional: true
+      - name: "seed"
+        type: "integer"
+        optional: true
+  - method: "POST"
+    path: "/step"
+    params:
+      - name: "action"
+        type: "object"
+        schema: "PromptAction"
+  - method: "GET"
+    path: "/state"
+    returns: "PromptState"
+  - method: "GET"
+    path: "/health"
+    returns: "string"
+  - method: "GET"
+    path: "/docs"
+    returns: "html"

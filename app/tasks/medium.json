@@ -1,0 +1,52 @@
+[
+  {
+    "id": "medium_001",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from the following text and return valid JSON with the specified fields.",
+    "input_data": "Invoice #2024-0512 dated March 15, 2024. Bill to: John Smith, 123 Main St, New York, NY 10001. Items: Widget A ($29.99 x 2 = $59.98), Widget B ($15.50 x 3 = $46.50). Subtotal: $106.48. Tax (8%): $8.52. Total: $114.99. Payment method: Credit Card ending in 4242.",
+    "expected_output": "{\"invoice_id\": \"2024-0512\", \"date\": \"2024-03-15\", \"customer_name\": \"John Smith\", \"city\": \"New York\", \"total_amount\": 114.99, \"tax_amount\": 8.52}",
+    "required_keys": ["invoice_id", "date", "customer_name", "city", "total_amount", "tax_amount"],
+    "keywords": ["invoice", "total", "customer", "date", "tax", "amount"]
+  },
+  {
+    "id": "medium_002",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Parse the following product description into structured JSON format.",
+    "input_data": "Product: UltraBook Pro Laptop. Model: UB-2024-X1. Processor: Intel Core i7-13700K. RAM: 16GB DDR5. Storage: 512GB NVMe SSD. Display: 15.6 inch 4K OLED. Battery: 8 hours. Price: $1,899.99. Color: Space Gray. In stock: Yes. Rating: 4.8/5 stars.",
+    "expected_output": "{\"product_name\": \"UltraBook Pro Laptop\", \"model\": \"UB-2024-X1\", \"processor\": \"Intel Core i7-13700K\", \"ram_gb\": 16, \"storage_gb\": 512, \"price\": 1899.99, \"in_stock\": true}",
+    "required_keys": ["product_name", "model", "processor", "ram_gb", "storage_gb", "price", "in_stock"],
+    "keywords": ["product", "price", "processor", "storage", "stock", "specification"]
+  },
+  {
+    "id": "medium_003",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract event details from the announcement and format as JSON.",
+    "input_data": "TechConf 2024 Annual Conference. Dates: June 10-12, 2024. Location: San Francisco Convention Center, 747 Market Street, CA 94103. Keynote Speaker: Dr. Sarah Chen. Registrations start on March 1st at $299 (early bird) rising to $399 after May 1st. Expected attendance: 5,000+ participants. Contact: events@techconf.org.",
+    "expected_output": "{\"event_name\": \"TechConf 2024 Annual Conference\", \"start_date\": \"2024-06-10\", \"location\": \"San Francisco Convention Center\", \"keynote_speaker\": \"Dr. Sarah Chen\", \"registration_fee\": 299, \"contact_email\": \"events@techconf.org\"}",
+    "required_keys": ["event_name", "start_date", "location", "keynote_speaker", "registration_fee", "contact_email"],
+    "keywords": ["event", "conference", "date", "location", "speaker", "registration", "contact"]
+  },
+  {
+    "id": "medium_004",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract job posting information into structured JSON format.",
+    "input_data": "Senior Software Engineer position at TechCorp Inc. Location: San Francisco, CA (Hybrid). Salary range: $150,000 - $200,000 annually. Requirements: 5+ years experience, Python and Java expertise, BS in Computer Science or equivalent. Benefits: Health insurance, 401k matching, unlimited PTO. Application deadline: April 30, 2024. Contact: careers@techcorp.com. Job ID: ENG-2024-451.",
+    "expected_output": "{\"job_title\": \"Senior Software Engineer\", \"company\": \"TechCorp Inc\", \"location\": \"San Francisco, CA\", \"salary_min\": 150000, \"salary_max\": 200000, \"experience_years\": 5, \"job_id\": \"ENG-2024-451\"}",
+    "required_keys": ["job_title", "company", "location", "salary_min", "salary_max", "experience_years", "job_id"],
+    "keywords": ["job", "salary", "experience", "engineer", "location", "requirements", "deadline"]
+  },
+  {
+    "id": "medium_005",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Convert the meeting notes into structured JSON data.",
+    "input_data": "Q1 Planning Meeting held on January 15, 2024. Attendees: Alice Johnson (CEO), Bob Martinez (CFO), Carol Lee (VP Engineering). Topics discussed: Revenue target $10M, headcount expansion to 50 employees, new product launch in March. Budget allocation: $3M for R&D, $2M for marketing, $1.5M for operations. Next meeting: February 15, 2024.",
+    "expected_output": "{\"meeting_name\": \"Q1 Planning Meeting\", \"meeting_date\": \"2024-01-15\", \"attendees_count\": 3, \"revenue_target\": 10000000, \"target_headcount\": 50, \"rd_budget\": 3000000, \"next_meeting_date\": \"2024-02-15\"}",
+    "required_keys": ["meeting_name", "meeting_date", "attendees_count", "revenue_target", "target_headcount", "rd_budget", "next_meeting_date"],
+    "keywords": ["meeting", "budget", "revenue", "target", "employees", "planning", "date"]
+  }
+]
