@@ -79,6 +79,10 @@ async def health():
         version="1.0.0"
     )
 
+@app.get("/")
+async def root():
+    return {"message": "PromptGym API is running"}
+
 
 @app.post("/reset", response_model=ResetResponse)
 async def reset(request: ResetRequest):
