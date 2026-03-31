@@ -15,8 +15,10 @@ COPY agent ./agent
 RUN mkdir -p logs
 ENV PYTHONUNBUFFERED=1
 ENV HOST=0.0.0.0
-ENV PORT=8000
+ENV PORT=7860
 ENV LLM_MODE=mock
 ENV USE_TORCH_SCORER=false
-EXPOSE 8000
+EXPOSE 7860
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:7860/health || exit 1
 CMD ["python", "start.py"]
