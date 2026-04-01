@@ -17,7 +17,7 @@ class PromptGymInference:
 
     def __init__(
         self,
-        api_base_url: str = "http://localhost:8000",
+        api_base_url: str = "http://localhost:7860",
         model_name: Optional[str] = None,
         hf_token: Optional[str] = None,
     ):
@@ -186,35 +186,44 @@ class PromptGymInference:
         Returns:
             Optimized prompt string
         """
+        # Extract key terms from input_data for better prompt quality
+        input_words = input_data.split()[:15]  # First 15 words
+        key_terms = " ".join(input_words[:8])  # First 8 words as context
+        
         base_prompt = f"Task: {task_description}\n\nInput: {input_data}"
         
         if difficulty == "EASY":
             # For summarization, emphasize conciseness and key points
             prompt = (
                 f"{base_prompt}\n\n"
-                "Please provide a concise one-sentence summary capturing the main points. "
-                "The summary should be clear, specific, and under 20 words."
+                f"Please provide a concise 2-3 sentence summary that captures the main ideas. "
+                f"Focus on the key concepts: {key_terms}. "
+                f"The summary should be clear, specific, and well-structured."
             )
         elif difficulty == "MEDIUM":
             # For JSON conversion, emphasize structure and validation
             prompt = (
                 f"{base_prompt}\n\n"
-                "Convert this to valid JSON format. The JSON should be properly structured "
-                "with appropriate data types. Return only the JSON object, no other text."
+                f"Convert this information to valid JSON format. "
+                f"Extract key entities and their relationships. "
+                f"Ensure proper JSON syntax with quotes around strings. "
+                f"Return only the JSON object, no additional text."
             )
         else:  # HARD
             # For reasoning, emphasize step-by-step logic
             prompt = (
                 f"{base_prompt}\n\n"
-                "Solve this problem step-by-step. Show your reasoning at each step. "
-                "Provide the final answer clearly."
+                f"Analyze this problem step-by-step. Consider the context: {key_terms}. "
+                f"Show your reasoning process clearly. "
+                f"Provide the final answer with explanation. "
+                f"Be thorough and logical in your approach."
             )
         
         # Add variation based on task index for better coverage
         if task_idx % 3 == 1:
-            prompt += "\n\nBe thorough and precise in your response."
+            prompt += "\n\nEnsure your response is comprehensive and well-organized."
         elif task_idx % 3 == 2:
-            prompt += "\n\nPrioritize clarity and correctness."
+            prompt += "\n\nPrioritize accuracy and clarity in your explanation."
         
         return prompt
 

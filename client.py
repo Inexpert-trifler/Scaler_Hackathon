@@ -17,6 +17,7 @@ class PromptGymEnv:
             base_url: Base URL of the PromptGym server
         """
         self.base_url = base_url
+        self._session_id = None
 
     def reset(self, difficulty: str = "EASY", seed: Optional[int] = None, **kwargs) -> PromptObservation:
         """
@@ -44,7 +45,11 @@ class PromptGymEnv:
                 timeout=5.0,
             ).json()
             
+            # Store session_id for subsequent steps
+            self._session_id = response.get("session_id", "default_session")
+            
             obs_data = response.get("observation", {})
+            reward = response.get("reward", 0.0)  # Get reward from response
             
             # Create observation directly without validation
             observation = PromptObservation(
@@ -55,7 +60,7 @@ class PromptGymEnv:
                 step=obs_data.get("step", 0),
                 max_steps=obs_data.get("max_steps", 5),
                 done=obs_data.get("done", False),
-                reward=obs_data.get("reward", 0.0),
+                reward=reward,  # Use reward from response
                 last_llm_output=obs_data.get("last_llm_output", ""),
                 last_score=obs_data.get("last_score", 0.0),
                 grader_signals=obs_data.get("grader_signals", {}),
@@ -77,6 +82,7 @@ class PromptGymEnv:
             PromptObservation with result
         """
         payload = {
+            "session_id": self._session_id or "default_session",
             "action": {
                 "prompt": action.prompt,
             }
@@ -90,6 +96,7 @@ class PromptGymEnv:
             ).json()
             
             obs_data = response.get("observation", {})
+            reward = response.get("reward", 0.0)  # Get reward from response, not observation
             
             # Create observation directly without validation
             observation = PromptObservation(
@@ -100,7 +107,7 @@ class PromptGymEnv:
                 step=obs_data.get("step", 0),
                 max_steps=obs_data.get("max_steps", 5),
                 done=obs_data.get("done", False),
-                reward=obs_data.get("reward", 0.0),
+                reward=reward,  # Use reward from response
                 last_llm_output=obs_data.get("last_llm_output", ""),
                 last_score=obs_data.get("last_score", 0.0),
                 grader_signals=obs_data.get("grader_signals", {}),

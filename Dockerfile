@@ -11,8 +11,7 @@ COPY start.py .
 COPY app ./app
 COPY server ./server
 COPY scorer ./scorer
-COPY agent ./agent
-RUN mkdir -p logs
+RUN mkdir -p logs agent
 ENV PYTHONUNBUFFERED=1
 ENV HOST=0.0.0.0
 ENV PORT=7860

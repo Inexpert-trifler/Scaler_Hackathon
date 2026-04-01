@@ -1,3 +1,4 @@
+# v2.0
 """PromptGym FastAPI server."""
 import uuid
 import logging
@@ -56,6 +57,7 @@ def mock_execute(prompt: str, task: dict) -> str:
 class ResetRequest(BaseModel):
     difficulty: str = "easy"
     session_id: Optional[str] = None
+    seed: Optional[int] = None
 
 class StepRequest(BaseModel):
     session_id: str
@@ -71,7 +73,13 @@ def root():
 
 @app.get("/metadata")
 def metadata():
-    return {"name": "PromptGym", "description": "Prompt engineering evaluation", "version": "1.0.0"}
+    return {
+        "name": "PromptGym",
+        "description": "Prompt engineering evaluation",
+        "version": "1.0.0",
+        "observation_space": {"type": "object"},
+        "action_space": {"type": "object"}
+    }
 
 @app.get("/schema")
 def schema():
@@ -106,7 +114,7 @@ def step(req: StepRequest):
         raise HTTPException(status_code=404, detail="Session not found")
     s = sessions[req.session_id]
     if s["done"]:
-        return {"observation": {}, "reward": 0.0, "done": True, "info": {}}
+        return {"observation": {}, "reward": 0.0, "done": True, "info": {}, "state": {}}
     action = req.action
     if isinstance(action, str):
         prompt = action
@@ -137,8 +145,26 @@ def step(req: StepRequest):
         },
         "reward": round(score, 4),
         "done": done,
-        "info": {"llm_output": output, "score": score}
+        "info": {"llm_output": output, "score": score},
+        "state": {
+            "session_id": req.session_id,
+            "step": s["step"],
+            "done": done,
+            "total_reward": s["total_reward"],
+            "best_reward": s["best_reward"]
+        }
     }
+
+from fastapi import Request
+
+@app.post("/mcp")
+async def mcp(request: Request):
+    body = await request.json()
+    return {"jsonrpc": "2.0", "id": body.get("id", 1), "result": {"status": "ok"}}
+
+@app.get("/state")
+def state_root():
+    return {}
 
 @app.get("/state/{session_id}")
 def state(session_id: str):
