@@ -86,7 +86,9 @@ def schema():
     return {"action": {"type": "object"}, "observation": {"type": "object"}, "state": {"type": "object"}}
 
 @app.post("/reset")
-def reset(req: ResetRequest):
+def reset(req: Optional[ResetRequest] = None):
+    if req is None:
+        req = ResetRequest()
     difficulty = req.difficulty if req.difficulty in ("easy", "medium", "hard") else "easy"
     session_id = req.session_id or str(uuid.uuid4())
     task = task_loader.get_task(difficulty)
