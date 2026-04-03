@@ -96,7 +96,8 @@ def schema():
 def reset(req: Optional[ResetRequest] = None):
     if req is None:
         req = ResetRequest()
-    difficulty = req.difficulty if req.difficulty in ("easy", "medium", "hard") else "easy"
+    difficulty = req.difficulty.lower() if req.difficulty.lower() in ("easy", "medium", "hard") else "easy"
+    session_id = req.session_id or str(uuid.uuid4())
     global last_session_id
     last_session_id = session_id
     task = task_loader.get_task(difficulty)
