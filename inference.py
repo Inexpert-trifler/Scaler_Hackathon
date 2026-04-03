@@ -1,411 +1,155 @@
 """Inference module for PromptGym - Hackathon submission entry point."""
 
 import os
-import json
+import textwrap
 import time
-import sys
-from typing import Optional
-from datetime import datetime, timezone
+from typing import List, Optional
 
-# Import environment and client
+import requests
+from openai import OpenAI
+
 from client import PromptGymEnv
 from models import PromptAction
 
+# LLM Configuration per Hackathon rules
+API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY") or "mock-key"
+LLM_API_BASE_URL = os.getenv("API_BASE_URL") or "https://router.huggingface.co/v1"
+MODEL_NAME = os.getenv("MODEL_NAME") or "Qwen/Qwen2.5-72B-Instruct"
 
-class PromptGymInference:
-    """Main inference runner for PromptGym hackathon submission."""
+# Env configuration
+ENV_API_URL = os.getenv("OPENENV_URL", "http://localhost:7860")
 
-    def __init__(
-        self,
-        api_base_url: str = "http://localhost:7860",
-        model_name: Optional[str] = None,
-        hf_token: Optional[str] = None,
-    ):
-        """
-        Initialize inference runner.
+TEMPERATURE = 0.7
+MAX_TOKENS = 500
+SUCCESS_SCORE_THRESHOLD = 0.5
 
-        Args:
-            api_base_url: Base URL for the PromptGym server
-            model_name: Name of the model to use (e.g., "gpt-3.5-turbo")
-            hf_token: Hugging Face API token for model access
-        """
-        self.api_base_url = api_base_url
-        self.model_name = model_name or os.getenv("MODEL_NAME", "gpt-3.5-turbo")
-        self.hf_token = hf_token or os.getenv("HF_TOKEN", "")
-        self.openai_api_key = os.getenv("OPENAI_API_KEY", "")
-        
-        self.results = {
-            "EASY": [],
-            "MEDIUM": [],
-            "HARD": [],
-        }
-        self.client = None
 
-    def run(self, num_tasks_per_difficulty: int = 5, timeout_minutes: int = 20):
-        """
-        Run inference on tasks across all difficulty levels.
+def log_start(task: str, env: str, model: str) -> None:
+    print(f"[START] task={task} env={env} model={model}", flush=True)
 
-        Args:
-            num_tasks_per_difficulty: Number of tasks per difficulty level
-            timeout_minutes: Maximum runtime in minutes
-        """
-        start_time = time.time()
-        timeout_seconds = timeout_minutes * 60
-        
-        print(f"Starting PromptGym Inference")
-        print(f"Model: {self.model_name}")
-        print(f"Server: {self.api_base_url}")
-        print(f"Timeout: {timeout_minutes} minutes")
-        print("-" * 60)
-        
-        # Try to initialize client
-        try:
-            self.client = PromptGymEnv(base_url=self.api_base_url)
-        except Exception as e:
-            print(f"Warning: Could not connect to server at {self.api_base_url}")
-            print(f"Error: {e}")
-            print("Running in mock mode without server connection...")
-            self.run_mock_mode(num_tasks_per_difficulty, timeout_seconds)
-            self._save_results()
-            return
-        
-        # Run for each difficulty level
-        for difficulty in ["EASY", "MEDIUM", "HARD"]:
-            if time.time() - start_time > timeout_seconds:
-                print(f"⚠️ Timeout reached. Stopping inference.")
-                break
-            
-            print(f"\n🎯 Running {difficulty} tasks ({num_tasks_per_difficulty} tasks)")
-            difficulty_results = self._run_difficulty_level(
-                difficulty,
-                num_tasks_per_difficulty,
-                start_time,
-                timeout_seconds,
-            )
-            self.results[difficulty] = difficulty_results
-            
-            # Print interim results
-            avg_reward = (
-                sum(r.get("reward", 0) for r in difficulty_results)
-                / len(difficulty_results)
-                if difficulty_results
-                else 0
-            )
-            print(f"  Average reward: {avg_reward:.3f}")
-        
-        # Save results
-        self._save_results()
-        self._print_summary(start_time)
 
-    def _run_difficulty_level(
-        self,
-        difficulty: str,
-        num_tasks: int,
-        start_time: float,
-        timeout_seconds: float,
-    ) -> list[dict]:
-        """
-        Run tasks for a specific difficulty level.
+def log_step(step: int, action: str, reward: float, done: bool, error: Optional[str]) -> None:
+    error_val = error if error else "null"
+    done_val = str(done).lower()
+    
+    # We must sanitize action string so it doesn't break the single line format
+    action_str = repr(action).replace('\n', '\\n')
+    
+    print(
+        f"[STEP] step={step} action={action_str} reward={reward:.2f} done={done_val} error={error_val}",
+        flush=True,
+    )
 
-        Args:
-            difficulty: Task difficulty ("EASY", "MEDIUM", "HARD")
-            num_tasks: Number of tasks to run
-            start_time: Start time for timeout calculation
-            timeout_seconds: Timeout in seconds
 
-        Returns:
-            List of result dictionaries
-        """
-        results = []
-        
-        for task_idx in range(num_tasks):
-            if time.time() - start_time > timeout_seconds:
-                print(f"  ⚠️ Timeout reached during {difficulty} tasks.")
-                break
-            
-            try:
-                # Reset environment for new task
-                observation = self.client.reset(difficulty=difficulty)
-                
-                # Generate prompt using strategy based on difficulty
-                prompt = self._generate_prompt(
-                    observation.task_description,
-                    observation.input_data,
-                    difficulty,
-                    task_idx,
-                )
-                
-                # Execute step with prompt
-                action = PromptAction(prompt=prompt)
-                result_obs = self.client.step(action)
-                
-                # Record result
-                result = {
-                    "task_idx": task_idx,
-                    "difficulty": difficulty,
-                    "prompt": prompt[:100] + "..." if len(prompt) > 100 else prompt,
-                    "reward": float(result_obs.reward),
-                    "done": result_obs.done,
-                }
-                results.append(result)
-                
-                status = "✓" if result_obs.reward > 0.7 else "○"
-                print(f"  {status} Task {task_idx + 1}: reward={result_obs.reward:.3f}")
-                
-            except Exception as e:
-                print(f"  ✗ Task {task_idx + 1}: Error - {str(e)}")
-                result = {
-                    "task_idx": task_idx,
-                    "difficulty": difficulty,
-                    "prompt": "",
-                    "reward": 0.0,
-                    "error": str(e),
-                }
-                results.append(result)
-        
-        return results
+def log_end(success: bool, steps: int, score: float, rewards: List[float]) -> None:
+    rewards_str = ",".join(f"{r:.2f}" for r in rewards)
+    print(f"[END] success={str(success).lower()} steps={steps} score={score:.3f} rewards={rewards_str}", flush=True)
 
-    def _generate_prompt(
-        self,
-        task_description: str,
-        input_data: str,
-        difficulty: str,
-        task_idx: int,
-    ) -> str:
-        """
-        Generate an optimized prompt for the task.
 
-        This implements strategies for different difficulty levels.
+def get_model_prompt(client: OpenAI, task_desc: str, input_data: str, difficulty: str) -> str:
+    system_prompt = "You are an expert prompt engineer. Your job is to create the perfect prompt to solve a specific task."
+    
+    user_prompt = textwrap.dedent(f"""
+        Task Description: {task_desc}
+        Input Data: {input_data}
+        Difficulty: {difficulty}
+        
+        Write a single, highly effective prompt that will guide an LLM to perfectly solve this task for the given input data.
+        Return ONLY the prompt string itself, nothing else. No quotes, no intro text.
+    """).strip()
+    
+    try:
+        completion = client.chat.completions.create(
+            model=MODEL_NAME,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=TEMPERATURE,
+            max_tokens=MAX_TOKENS,
+            stream=False,
+        )
+        text = (completion.choices[0].message.content or "").strip()
+        return text if text else f"Please process the input data '{input_data}' according to the task description."
+    except Exception as exc:
+        print(f"[DEBUG] Model request failed: {exc}", flush=True)
+        return f"Process this: {input_data} based on {task_desc}"
 
-        Args:
-            task_description: Description of the task
-            input_data: Input data for the task
-            difficulty: Task difficulty
-            task_idx: Index of task in sequence
 
-        Returns:
-            Optimized prompt string
-        """
-        # Extract key terms from input_data for better prompt quality
-        input_words = input_data.split()[:15]  # First 15 words
-        key_terms = " ".join(input_words[:8])  # First 8 words as context
+def run_episode(env_client: PromptGymEnv, openai_client: OpenAI, difficulty: str, task_idx: int) -> dict:
+    task_name = f"promptgym-{difficulty.lower()}-{task_idx}"
+    benchmark = "promptgym"
+    log_start(task=task_name, env=benchmark, model=MODEL_NAME)
+    
+    rewards: List[float] = []
+    steps_taken = 0
+    success = False
+    
+    try:
+        observation = env_client.reset(difficulty=difficulty)
         
-        base_prompt = f"Task: {task_description}\n\nInput: {input_data}"
+        # The promptgym environment is basically a single-step environment per task.
+        steps_taken = 1
         
-        if difficulty == "EASY":
-            # For summarization, emphasize conciseness and key points
-            prompt = (
-                f"{base_prompt}\n\n"
-                f"Please provide a concise 2-3 sentence summary that captures the main ideas. "
-                f"Focus on the key concepts: {key_terms}. "
-                f"The summary should be clear, specific, and well-structured."
-            )
-        elif difficulty == "MEDIUM":
-            # For JSON conversion, emphasize structure and validation
-            prompt = (
-                f"{base_prompt}\n\n"
-                f"Convert this information to valid JSON format. "
-                f"Extract key entities and their relationships. "
-                f"Ensure proper JSON syntax with quotes around strings. "
-                f"Return only the JSON object, no additional text."
-            )
-        else:  # HARD
-            # For reasoning, emphasize step-by-step logic
-            prompt = (
-                f"{base_prompt}\n\n"
-                f"Analyze this problem step-by-step. Consider the context: {key_terms}. "
-                f"Show your reasoning process clearly. "
-                f"Provide the final answer with explanation. "
-                f"Be thorough and logical in your approach."
-            )
-        
-        # Add variation based on task index for better coverage
-        if task_idx % 3 == 1:
-            prompt += "\n\nEnsure your response is comprehensive and well-organized."
-        elif task_idx % 3 == 2:
-            prompt += "\n\nPrioritize accuracy and clarity in your explanation."
-        
-        return prompt
-
-    def run_mock_mode(self, num_tasks_per_difficulty: int, timeout_seconds: float):
-        """
-        Run inference in mock mode without server connection.
-
-        Args:
-            num_tasks_per_difficulty: Number of tasks per difficulty
-            timeout_seconds: Timeout in seconds
-        """
-        print("\n📊 Mock Mode Execution")
-        
-        from app.env.tasks import get_tasks_by_difficulty
-        from app.env.grader import grade_output
-        
-        start_time = time.time()
-        
-        for difficulty in ["EASY", "MEDIUM", "HARD"]:
-            if time.time() - start_time > timeout_seconds:
-                break
-            
-            print(f"\n{difficulty} tasks:")
-            results = []
-            
-            tasks = get_tasks_by_difficulty(difficulty)
-            tasks_to_run = tasks[:num_tasks_per_difficulty]
-            
-            for task_idx, task in enumerate(tasks_to_run):
-                # Generate prompt
-                prompt = self._generate_prompt(
-                    str(task.get("task_description", "")),
-                    str(task.get("input_data", "")),
-                    difficulty,
-                    task_idx,
-                )
-                
-                # Mock execute - return expected output for perfect prompt
-                if len(prompt) > 80:  # Longer prompts get better results
-                    output = task.get("expected_output", "")
-                else:
-                    output = "Incomplete response"
-                
-                # Grade
-                reward = grade_output(task, output)
-                
-                result = {
-                    "task_idx": task_idx,
-                    "difficulty": difficulty,
-                    "reward": float(reward),
-                }
-                results.append(result)
-                
-                status = "✓" if reward > 0.7 else "○"
-                print(f"  {status} Task {task_idx + 1}: reward={reward:.3f}")
-            
-            self.results[difficulty] = results
-
-    def _save_results(self):
-        """Save results to JSON file."""
-        output_file = "baseline_results.json"
-        
-        # Flatten results for output
-        flat_results = []
-        for difficulty, results_list in self.results.items():
-            for result in results_list:
-                flat_result = {
-                    "difficulty": difficulty,
-                    **result,
-                }
-                flat_results.append(flat_result)
-        
-        output = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "model": self.model_name,
-            "results": flat_results,
-            "summary": self._calculate_summary(),
-        }
-        
-        with open(output_file, "w") as f:
-            json.dump(output, f, indent=2)
-        
-        print(f"\n✓ Results saved to {output_file}")
-
-    def _calculate_summary(self) -> dict:
-        """Calculate summary statistics."""
-        summary = {}
-        
-        for difficulty in ["EASY", "MEDIUM", "HARD"]:
-            results_list = self.results.get(difficulty, [])
-            if not results_list:
-                summary[difficulty] = {
-                    "count": 0,
-                    "avg_reward": 0.0,
-                    "max_reward": 0.0,
-                    "min_reward": 0.0,
-                }
-                continue
-            
-            rewards = [r.get("reward", 0) for r in results_list]
-            summary[difficulty] = {
-                "count": len(results_list),
-                "avg_reward": sum(rewards) / len(rewards),
-                "max_reward": max(rewards),
-                "min_reward": min(rewards),
-            }
-        
-        return summary
-
-    def _print_summary(self, start_time: float):
-        """Print execution summary."""
-        elapsed = time.time() - start_time
-        total_tasks = sum(len(r) for r in self.results.values())
-        total_reward = sum(
-            r.get("reward", 0)
-            for results_list in self.results.values()
-            for r in results_list
+        # Generate the action using the required OpenAI client
+        prompt = get_model_prompt(
+            openai_client, 
+            observation.task_description, 
+            observation.input_data, 
+            difficulty
         )
         
-        print("\n" + "=" * 60)
-        print("📈 FINAL SUMMARY")
-        print("=" * 60)
+        action = PromptAction(prompt=prompt)
+        try:
+            result_obs = env_client.step(action)
+            reward = float(result_obs.reward)
+            done = result_obs.done
+            error = None
+        except Exception as e:
+            reward = 0.0
+            done = True
+            error = str(e)
+            
+        rewards.append(reward)
+        log_step(step=1, action=prompt, reward=reward, done=done, error=error)
         
-        for difficulty in ["EASY", "MEDIUM", "HARD"]:
-            results_list = self.results.get(difficulty, [])
-            if results_list:
-                avg_reward = sum(r.get("reward", 0) for r in results_list) / len(
-                    results_list
-                )
-                print(f"{difficulty:8s}: {len(results_list)} tasks | avg_reward={avg_reward:.3f}")
+        score = reward
+        success = score >= SUCCESS_SCORE_THRESHOLD
         
-        print(f"\nTotal: {total_tasks} tasks | {elapsed:.1f}s elapsed")
-        if total_tasks > 0:
-            print(f"Overall average reward: {total_reward / total_tasks:.3f}")
+    except Exception as e:
+        score = 0.0
+        success = False
+        print(f"[DEBUG] Episode error: {e}", flush=True)
+        
+    log_end(success=success, steps=steps_taken, score=score, rewards=rewards)
+    return {"difficulty": difficulty, "task_idx": task_idx, "score": score, "success": success}
 
 
 def main():
-    """Main entry point for hackathon submission."""
-    import argparse
+    print(f"[DEBUG] Checking if environment server at {ENV_API_URL} is ready...", flush=True)
+    # Wait for the environment server to be ready
+    for _ in range(30):
+        try:
+            requests.get(f"{ENV_API_URL}/health", timeout=2)
+            break
+        except Exception:
+            time.sleep(1)
+            
+    env_client = PromptGymEnv(base_url=ENV_API_URL)
     
-    parser = argparse.ArgumentParser(description="PromptGym Inference Runner")
-    parser.add_argument(
-        "--api-url",
-        default=os.getenv("API_BASE_URL", "http://localhost:7860"),
-        help="Base URL for PromptGym server",
-    )
-    parser.add_argument(
-        "--model",
-        default=os.getenv("MODEL_NAME", "gpt-3.5-turbo"),
-        help="Model name to use",
-    )
-    parser.add_argument(
-        "--hf-token",
-        default=os.getenv("HF_TOKEN", ""),
-        help="Hugging Face API token",
-    )
-    parser.add_argument(
-        "--tasks-per-level",
-        type=int,
-        default=5,
-        help="Number of tasks per difficulty level",
-    )
-    parser.add_argument(
-        "--timeout",
-        type=int,
-        default=20,
-        help="Timeout in minutes",
-    )
+    # Initialize OpenAI client 
+    client_kwargs = {"api_key": API_KEY}
+    if LLM_API_BASE_URL:
+        client_kwargs["base_url"] = LLM_API_BASE_URL
+        
+    openai_client = OpenAI(**client_kwargs)
+
+    # In openenv.yaml, we declared 3 tasks for EASY, 3 for MEDIUM, 3 for HARD
+    tasks_per_level = 3
     
-    args = parser.parse_args()
-    
-    # Create and run inference
-    inference = PromptGymInference(
-        api_base_url=args.api_url,
-        model_name=args.model,
-        hf_token=args.hf_token,
-    )
-    
-    inference.run(
-        num_tasks_per_difficulty=args.tasks_per_level,
-        timeout_minutes=args.timeout,
-    )
+    for difficulty in ["EASY", "MEDIUM", "HARD"]:
+        for task_idx in range(tasks_per_level):
+            run_episode(env_client, openai_client, difficulty, task_idx + 1)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,27 @@
+INFO:     Started server process [5395]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:7860 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53240 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53242 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53246 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53248 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53250 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53252 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53254 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53256 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53258 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53260 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53262 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53264 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53265 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53266 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53267 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53268 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53269 - "POST /step HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53270 - "POST /reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53274 - "POST /step HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5395]

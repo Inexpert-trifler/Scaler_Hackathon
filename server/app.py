@@ -19,6 +19,13 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 task_loader = TaskLoader()
 grader = Grader()
 sessions: Dict[str, dict] = {}
+last_session_id: Optional[str] = None
+
+# Initialize Torch Scorer
+from scorer.reward_model import TorchRewardScorer, pretrain_on_synthetic_data
+torch_scorer = TorchRewardScorer()
+if settings.USE_TORCH_SCORER and torch_scorer.available:
+    pretrain_on_synthetic_data(torch_scorer)
 
 def mock_execute(prompt: str, task: dict) -> str:
     keywords = task.get("keywords", [])
@@ -90,7 +97,8 @@ def reset(req: Optional[ResetRequest] = None):
     if req is None:
         req = ResetRequest()
     difficulty = req.difficulty if req.difficulty in ("easy", "medium", "hard") else "easy"
-    session_id = req.session_id or str(uuid.uuid4())
+    global last_session_id
+    last_session_id = session_id
     task = task_loader.get_task(difficulty)
     sessions[session_id] = {"task": task, "step": 0, "done": False, "total_reward": 0.0, "best_reward": 0.0, "difficulty": difficulty}
     return {
@@ -127,6 +135,13 @@ def step(req: StepRequest):
     task = s["task"]
     output = mock_execute(prompt, task)
     score, signals = grader.grade(output, task)
+    
+    # Optional Torch Blending (adds novelty scores)
+    if settings.USE_TORCH_SCORER and torch_scorer.available:
+        torch_score = torch_scorer.score(prompt, output, task)
+        score = torch_scorer.blend_with_grader(score, torch_score)
+        signals["torch_score"] = torch_score
+
     s["step"] += 1
     s["total_reward"] += score
     s["best_reward"] = max(s["best_reward"], score)
@@ -150,6 +165,8 @@ def step(req: StepRequest):
         "info": {"llm_output": output, "score": score},
         "state": {
             "session_id": req.session_id,
+            "task_id": task.get("id", ""),
+            "task_description": task.get("task_description", ""),
             "step": s["step"],
             "done": done,
             "total_reward": s["total_reward"],
@@ -166,7 +183,19 @@ async def mcp(request: Request):
 
 @app.get("/state")
 def state_root():
-    return {}
+    if last_session_id and last_session_id in sessions:
+        s = sessions[last_session_id]
+        return {
+            "session_id": last_session_id,
+            "task_id": s["task"].get("id", ""),
+            "difficulty": s["difficulty"],
+            "total_reward": round(s["total_reward"], 4),
+            "best_reward": round(s["best_reward"], 4),
+            "done": s["done"],
+            "step_count": s["step"],
+            "task_description": s["task"]["task_description"]
+        }
+    return {"message": "No active session found. Call /reset first."}
 
 @app.get("/state/{session_id}")
 def state(session_id: str):
