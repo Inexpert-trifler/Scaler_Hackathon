@@ -63,6 +63,7 @@ def mock_execute(prompt: str, task: dict) -> str:
 
 class ResetRequest(BaseModel):
     difficulty: str = "easy"
+    task_id: Optional[str] = None
     session_id: Optional[str] = None
     seed: Optional[int] = None
 
@@ -100,7 +101,14 @@ def reset(req: Optional[ResetRequest] = None):
     session_id = req.session_id or str(uuid.uuid4())
     global last_session_id
     last_session_id = session_id
-    task = task_loader.get_task(difficulty)
+    if req.task_id:
+        task = task_loader.get_task_by_id(req.task_id)
+        if not task:
+            raise HTTPException(status_code=404, detail=f"Task {req.task_id} not found")
+        difficulty = task["difficulty"].lower()
+    else:
+        task = task_loader.get_task(difficulty)
+    
     sessions[session_id] = {"task": task, "step": 0, "done": False, "total_reward": 0.0, "best_reward": 0.0, "difficulty": difficulty}
     return {
         "session_id": session_id,
