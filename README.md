@@ -1,3 +1,15 @@
+---
+title: PromptGym
+emoji: 🎯
+colorFrom: purple
+colorTo: blue
+sdk: docker
+app_port: 7860
+tags:
+  - openenv
+pinned: false
+---
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=42&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&height=80&lines=PromptGym+%F0%9F%8E%AF;Train+Your+Prompts." alt="PromptGym" />
