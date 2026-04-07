@@ -133,7 +133,7 @@ class TorchRewardScorer:
     ) -> float:
         """Blend grader and torch scores."""
         blended = alpha * grader_score + (1 - alpha) * torch_score
-        return min(1.0, max(0.0, blended))
+        return min(0.9999, max(0.0001, blended))
 
 
 def pretrain_on_synthetic_data(scorer: TorchRewardScorer) -> None:
