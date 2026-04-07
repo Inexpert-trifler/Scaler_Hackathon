@@ -106,7 +106,7 @@ def run_episode(env_client: PromptGymEnv, openai_client: OpenAI, difficulty: str
             done = result_obs.done
             error = None
         except Exception as e:
-            reward = 0.0
+            reward = 0.01
             done = True
             error = str(e)
             
@@ -117,7 +117,7 @@ def run_episode(env_client: PromptGymEnv, openai_client: OpenAI, difficulty: str
         success = score >= SUCCESS_SCORE_THRESHOLD
         
     except Exception as e:
-        score = 0.0
+        score = 0.01
         success = False
         print(f"[DEBUG] Episode error: {e}", flush=True)
         

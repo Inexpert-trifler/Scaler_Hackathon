@@ -49,7 +49,7 @@ class Grader:
             )
 
         # Clip and round strictly within (0, 1)
-        final_score = max(0.0001, min(0.9999, final_score))
+        final_score = max(0.01, min(0.99, final_score))
         final_score = round(final_score, 4)
 
         return final_score, signals
