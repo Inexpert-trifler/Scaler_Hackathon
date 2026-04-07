@@ -12,9 +12,9 @@ from client import PromptGymEnv
 from models import PromptAction
 
 # LLM Configuration per Hackathon rules
-API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY") or "mock-key"
-LLM_API_BASE_URL = os.getenv("API_BASE_URL") or "https://router.huggingface.co/v1"
-MODEL_NAME = os.getenv("MODEL_NAME") or "Qwen/Qwen2.5-72B-Instruct"
+HF_TOKEN = os.getenv("HF_TOKEN")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://router.huggingface.co/v1")
+MODEL_NAME = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-72B-Instruct")
 
 # Env configuration
 ENV_API_URL = os.getenv("OPENENV_URL", "http://localhost:7860")
@@ -138,9 +138,9 @@ def main():
     env_client = PromptGymEnv(base_url=ENV_API_URL)
     
     # Initialize OpenAI client 
-    client_kwargs = {"api_key": API_KEY}
-    if LLM_API_BASE_URL:
-        client_kwargs["base_url"] = LLM_API_BASE_URL
+    client_kwargs = {"api_key": HF_TOKEN}
+    if API_BASE_URL:
+        client_kwargs["base_url"] = API_BASE_URL
         
     openai_client = OpenAI(**client_kwargs)
 
