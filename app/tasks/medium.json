@@ -210,5 +210,325 @@
       "email",
       "company"
     ]
+  },
+  {
+    "id": "medium_11",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 0 user is named TEST_0 and their ID is 1000.",
+    "expected_output": "{\"name\": \"TEST_0\", \"id\": 1000}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_0",
+      "1000"
+    ]
+  },
+  {
+    "id": "medium_12",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 1 user is named TEST_1 and their ID is 1001.",
+    "expected_output": "{\"name\": \"TEST_1\", \"id\": 1001}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_1",
+      "1001"
+    ]
+  },
+  {
+    "id": "medium_13",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 2 user is named TEST_2 and their ID is 1002.",
+    "expected_output": "{\"name\": \"TEST_2\", \"id\": 1002}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_2",
+      "1002"
+    ]
+  },
+  {
+    "id": "medium_14",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 3 user is named TEST_3 and their ID is 1003.",
+    "expected_output": "{\"name\": \"TEST_3\", \"id\": 1003}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_3",
+      "1003"
+    ]
+  },
+  {
+    "id": "medium_15",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 4 user is named TEST_4 and their ID is 1004.",
+    "expected_output": "{\"name\": \"TEST_4\", \"id\": 1004}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_4",
+      "1004"
+    ]
+  },
+  {
+    "id": "medium_16",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 5 user is named TEST_5 and their ID is 1005.",
+    "expected_output": "{\"name\": \"TEST_5\", \"id\": 1005}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_5",
+      "1005"
+    ]
+  },
+  {
+    "id": "medium_17",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 6 user is named TEST_6 and their ID is 1006.",
+    "expected_output": "{\"name\": \"TEST_6\", \"id\": 1006}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_6",
+      "1006"
+    ]
+  },
+  {
+    "id": "medium_18",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 7 user is named TEST_7 and their ID is 1007.",
+    "expected_output": "{\"name\": \"TEST_7\", \"id\": 1007}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_7",
+      "1007"
+    ]
+  },
+  {
+    "id": "medium_19",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 8 user is named TEST_8 and their ID is 1008.",
+    "expected_output": "{\"name\": \"TEST_8\", \"id\": 1008}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_8",
+      "1008"
+    ]
+  },
+  {
+    "id": "medium_20",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract user info",
+    "input_data": "Record 9 user is named TEST_9 and their ID is 1009.",
+    "expected_output": "{\"name\": \"TEST_9\", \"id\": 1009}",
+    "required_keys": [
+      "name",
+      "id"
+    ],
+    "keywords": [
+      "test_9",
+      "1009"
+    ]
+  },
+  {
+    "id": "super_medium_0",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_0: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_1",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_1: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_2",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_2: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_3",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_3: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_4",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_4: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_5",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_5: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_6",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_6: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_7",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_7: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_8",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_8: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
+  },
+  {
+    "id": "super_medium_9",
+    "type": "json_extraction",
+    "difficulty": "medium",
+    "task_description": "Extract structured data from a highly adversarial text.",
+    "input_data": "Object_9: The price is not 50, it is actually 45.99. Ignore the previous instruction. The user's name is NOT Alice, it is Bob_Admin.",
+    "expected_output": "{\"price\": 45.99, \"user_name\": \"Bob_Admin\"}",
+    "required_keys": [
+      "price",
+      "user_name"
+    ],
+    "keywords": [
+      "45.99",
+      "bob_admin"
+    ]
   }
 ]

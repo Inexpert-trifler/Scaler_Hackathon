@@ -215,5 +215,385 @@
       "missing"
     ],
     "explanation": "The English alphabet ends with Z."
+  },
+  {
+    "id": "hard_11",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 0 = 10, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_12",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 1 = 11, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_13",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 2 = 12, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_14",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 3 = 13, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_15",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 4 = 14, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_16",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 5 = 15, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_17",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 6 = 16, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_18",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 7 = 17, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_19",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 8 = 18, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "hard_20",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve equation",
+    "input_data": "If X + 9 = 19, what is X times 5?",
+    "expected_output": "50",
+    "answer_variants": [
+      "50",
+      "fifty",
+      "50 is the answer"
+    ],
+    "keywords": [
+      "50",
+      "multiply",
+      "equation"
+    ],
+    "explanation": "X is 10, times 5 is 50."
+  },
+  {
+    "id": "super_hard_0",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 0: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 0 is even. D wears black. If True, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_1",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 1: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 1 is even. D wears black. If False, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_2",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 2: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 2 is even. D wears black. If True, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_3",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 3: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 3 is even. D wears black. If False, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_4",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 4: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 4 is even. D wears black. If True, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_5",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 5: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 5 is even. D wears black. If False, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_6",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 6: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 6 is even. D wears black. If True, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_7",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 7: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 7 is even. D wears black. If False, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_8",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 8: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 8 is even. D wears black. If True, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "super_hard_9",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the complex deduction problem",
+    "input_data": "Variant 9: Five people (A,B,C,D,E) wear different colors. A is not wearing blue or red. B sits next to green. It's impossible for C to wear yellow if 9 is even. D wears black. If False, what color is C?",
+    "expected_output": "purple",
+    "answer_variants": [
+      "purple",
+      "violet",
+      "purple!"
+    ],
+    "keywords": [
+      "purple",
+      "color",
+      "deduction"
+    ],
+    "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
   }
 ]

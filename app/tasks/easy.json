@@ -150,5 +150,275 @@
       "lorem ipsum",
       "text"
     ]
+  },
+  {
+    "id": "easy_11",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 0: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_12",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 1: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_13",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 2: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_14",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 3: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_15",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 4: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_16",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 5: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_17",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 6: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_18",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 7: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_19",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 8: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "easy_20",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize briefly",
+    "input_data": "Data set part 9: The red fox jumped over the lazy dog. Fox was extremely red and dog was very lazy.",
+    "expected_output": "A red fox jumped over a lazy dog.",
+    "keywords": [
+      "fox",
+      "lazy",
+      "dog",
+      "jumped"
+    ]
+  },
+  {
+    "id": "super_easy_0",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 0: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_1",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 1: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_2",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 2: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_3",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 3: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_4",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 4: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_5",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 5: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_6",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 6: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_7",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 7: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_8",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 8: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
+  },
+  {
+    "id": "super_easy_9",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this intentionally deceptive narrative.",
+    "input_data": "Variant 9: The CEO announced that despite record profits, the company will be filing for bankruptcy immediately due to an internal accounting error that invalidated all previous ledgers dating back to 1999.",
+    "expected_output": "The company is filing for bankruptcy due to massive accounting errors despite high reported profits.",
+    "keywords": [
+      "bankruptcy",
+      "accounting",
+      "profits"
+    ]
   }
 ]

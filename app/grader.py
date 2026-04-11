@@ -30,32 +30,31 @@ class Grader:
         if task_type == "json_extraction":
             signals["json_structure"] = self._json_structure_score(output, task)
             if signals["json_structure"] < 1.0:
-                final_score = 0.5 * signals["json_structure"]
+                final_score = 0.0  # Ultra-strict: missing any required key means immediate failure
             else:
                 final_score = (
-                    0.60 * signals["json_structure"]
-                    + 0.20 * signals["token_f1"]
-                    + 0.20 * signals["keyword_coverage"]
+                    0.80 * signals["json_structure"]
+                    + 0.10 * signals["token_f1"]
+                    + 0.10 * signals["keyword_coverage"]
                 )
         elif task_type == "reasoning":
             signals["answer_match"] = self._answer_match_score(output, task)
-            if signals["answer_match"] < 0.8:
-                final_score = signals["answer_match"] * 0.5
+            # Must perfectly match one of the expected variants
+            if signals["answer_match"] < 1.0:
+                final_score = 0.0
             else:
                 final_score = (
-                    0.70 * signals["answer_match"]
-                    + 0.20 * signals["keyword_coverage"]
+                    0.90 * signals["answer_match"]
                     + 0.10 * signals["token_f1"]
                 )
         else:  # summarization
             final_score = (
-                0.40 * signals["token_f1"]
-                + 0.40 * signals["keyword_coverage"]
-                + 0.20 * signals["length_penalty"]
+                0.50 * signals["token_f1"]
+                + 0.50 * signals["keyword_coverage"]
             )
-            # Strict penalty on length divergence
-            if signals["length_penalty"] < 0.8:
-                final_score *= 0.5
+            # Ultra-strict penalty on length divergence or low keyword coverage
+            if signals["length_penalty"] < 0.9 or signals["keyword_coverage"] < 0.5:
+                final_score *= 0.1
 
         # Clip and round strictly within (0, 1)
         final_score = max(0.01, min(0.99, final_score))

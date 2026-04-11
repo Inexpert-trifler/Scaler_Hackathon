@@ -4,6 +4,8 @@ import uuid
 import logging
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional, Any, Dict
 
@@ -15,6 +17,7 @@ from app.tasks.loader import TaskLoader
 
 app = FastAPI(title="PromptGym API", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.mount("/public", StaticFiles(directory="public"), name="public")
 
 task_loader = TaskLoader()
 grader = Grader()
@@ -77,7 +80,7 @@ def health():
 
 @app.get("/")
 def root():
-    return {"name": "PromptGym", "status": "running"}
+    return FileResponse("public/index.html")
 
 @app.get("/metadata")
 def metadata():

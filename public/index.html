@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptGym - Advanced OpenEnv</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body>
+    <div class="background-glass"></div>
+    <div class="glow-orb top-left"></div>
+    <div class="glow-orb bottom-right"></div>
+    
+    <div class="app-container">
+        <header class="header">
+            <div>
+                <h1>PromptGym <span class="badge">PRO</span></h1>
+                <p class="subtitle">Ultimate Multi-Signal OpenEnv Grader</p>
+            </div>
+            <div class="controls">
+                <select id="difficulty-select" class="glass-select">
+                    <option value="easy">Easy (Summarization)</option>
+                    <option value="medium">Medium (JSON)</option>
+                    <option value="hard">Hard (Reasoning)</option>
+                </select>
+                <button id="reset-btn" class="glass-btn primary">Initialize Environment</button>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            <section class="panel observation-panel">
+                <div class="panel-header">
+                    <h2>Observation State</h2>
+                    <span id="step-counter" class="status-badge">Step: 0</span>
+                </div>
+                <div class="content-box">
+                    <div class="data-group">
+                        <label>Task Description:</label>
+                        <div id="task-desc" class="glass-text">Environment not initialized.</div>
+                    </div>
+                    <div class="data-group">
+                        <label>Input Data Context:</label>
+                        <div id="input-data" class="glass-text log-style">Awaiting initialization...</div>
+                    </div>
+                    
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <span class="label">Difficulty</span>
+                            <span id="stat-diff" class="value">-</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="label">Total Reward</span>
+                            <span id="stat-reward" class="value highlight">0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel interaction-panel">
+                <div class="panel-header">
+                    <h2>Agent Action (Prompt Injection)</h2>
+                </div>
+                <div class="content-box chat-box">
+                    <div id="history-container" class="history-scroll">
+                        <!-- Step histories injected here -->
+                    </div>
+                    
+                    <div class="input-area">
+                        <textarea id="prompt-input" class="glass-input" placeholder="Enter optimized prompt strategy to execute..." disabled></textarea>
+                        <button id="step-btn" class="glass-btn action-btn" disabled>Execute Step ⚡</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/public/script.js"></script>
+</body>
+</html>
