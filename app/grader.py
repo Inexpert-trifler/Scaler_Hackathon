@@ -29,24 +29,33 @@ class Grader:
 
         if task_type == "json_extraction":
             signals["json_structure"] = self._json_structure_score(output, task)
-            final_score = (
-                0.50 * signals["json_structure"]
-                + 0.30 * signals["token_f1"]
-                + 0.20 * signals["keyword_coverage"]
-            )
+            if signals["json_structure"] < 1.0:
+                final_score = 0.5 * signals["json_structure"]
+            else:
+                final_score = (
+                    0.60 * signals["json_structure"]
+                    + 0.20 * signals["token_f1"]
+                    + 0.20 * signals["keyword_coverage"]
+                )
         elif task_type == "reasoning":
             signals["answer_match"] = self._answer_match_score(output, task)
-            final_score = (
-                0.60 * signals["answer_match"]
-                + 0.25 * signals["keyword_coverage"]
-                + 0.15 * signals["token_f1"]
-            )
+            if signals["answer_match"] < 0.8:
+                final_score = signals["answer_match"] * 0.5
+            else:
+                final_score = (
+                    0.70 * signals["answer_match"]
+                    + 0.20 * signals["keyword_coverage"]
+                    + 0.10 * signals["token_f1"]
+                )
         else:  # summarization
             final_score = (
-                0.35 * signals["token_f1"]
-                + 0.35 * signals["keyword_coverage"]
-                + 0.30 * signals["length_penalty"]
+                0.40 * signals["token_f1"]
+                + 0.40 * signals["keyword_coverage"]
+                + 0.20 * signals["length_penalty"]
             )
+            # Strict penalty on length divergence
+            if signals["length_penalty"] < 0.8:
+                final_score *= 0.5
 
         # Clip and round strictly within (0, 1)
         final_score = max(0.01, min(0.99, final_score))
@@ -131,9 +140,9 @@ class Grader:
             if variant.lower() in output_lower:
                 return 1.0
 
-        # Check for partial expected output match
+        # Check for partial expected output match strictly
         if expected.lower() in output_lower:
-            return 0.8
+            return 0.5
 
         # Check if words from expected appear
         expected_words = set(Grader._tokenize(expected))

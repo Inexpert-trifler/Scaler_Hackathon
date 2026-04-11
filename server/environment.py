@@ -25,12 +25,15 @@ class PromptGymEnvironment(Environment[PromptAction, PromptObservation, PromptSt
         self.difficulty = "easy"
         self.step_count = 0
         self.total_reward = 0.0
+        self.episode_id = "default"
 
     def reset(self, difficulty: str = "EASY", **kwargs) -> PromptObservation:
         self.difficulty = difficulty.lower()
         self.current_task = self.task_loader.get_task(self.difficulty)
         self.step_count = 0
         self.total_reward = 0.0
+        import uuid
+        self.episode_id = f"ep_{uuid.uuid4().hex[:8]}"
         
         return PromptObservation(
             task_description=self.current_task["task_description"],
@@ -67,6 +70,8 @@ class PromptGymEnvironment(Environment[PromptAction, PromptObservation, PromptSt
     @property
     def state(self) -> PromptState:
         return PromptState(
+            episode_id=self.episode_id,
+            step_count=self.step_count,
             task_id=self.current_task.get("id", "") if self.current_task else "",
             difficulty=self.difficulty,
             total_reward=self.total_reward,

@@ -6,7 +6,15 @@
     "task_description": "Summarize the given text in 2-3 sentences",
     "input_data": "Artificial intelligence has emerged as one of the most transformative technologies of the 21st century. From self-driving cars to medical diagnostics, AI is revolutionizing industries and changing how we work. However, the rapid advancement of AI also raises important questions about ethics, job displacement, and the need for responsible development. Many leading tech companies and governments are now investing heavily in AI safety research to ensure these powerful systems benefit humanity.",
     "expected_output": "Artificial intelligence is transforming industries through applications like autonomous vehicles and medical diagnostics. While offering significant benefits, rapid AI advancement raises ethical concerns and job displacement questions. Leading organizations are increasingly investing in AI safety research to ensure responsible development.",
-    "keywords": ["artificial intelligence", "transformative", "industries", "ethics", "job displacement", "AI safety", "technology"]
+    "keywords": [
+      "artificial intelligence",
+      "transformative",
+      "industries",
+      "ethics",
+      "job displacement",
+      "AI safety",
+      "technology"
+    ]
   },
   {
     "id": "easy_002",
@@ -15,7 +23,15 @@
     "task_description": "Create a brief summary capturing the main points",
     "input_data": "SpaceX has achieved several historic milestones in space exploration, including the first privately-funded spacecraft to reach the International Space Station. The company's Falcon 9 rocket is now reusable, significantly reducing launch costs. Elon Musk's long-term vision includes establishing a human settlement on Mars within the next two decades. Recent test flights of the Starship prototype have shown promise, though challenges remain in achieving full reusability and safe landing procedures.",
     "expected_output": "SpaceX has pioneered private space exploration with reusable rocket technology and progress toward Mars colonization. The Falcon 9 reduces launch costs through reusability, while Starship prototypes advance toward Musk's goal of establishing human settlement on Mars.",
-    "keywords": ["SpaceX", "reusable", "Mars", "Falcon 9", "Starship", "space exploration", "cost reduction"]
+    "keywords": [
+      "SpaceX",
+      "reusable",
+      "Mars",
+      "Falcon 9",
+      "Starship",
+      "space exploration",
+      "cost reduction"
+    ]
   },
   {
     "id": "easy_003",
@@ -24,7 +40,15 @@
     "task_description": "Condense the following information into one concise summary",
     "input_data": "Remote work has fundamentally changed the landscape of modern employment. Companies worldwide have adopted hybrid and fully remote models, enabling talent recruitment from global markets. This shift offers employees greater flexibility and reduces commute time, improving work-life balance. However, remote work also present challenges including communication delays across time zones, reduced team cohesion, and potential work-life boundary issues. Organizations are now focused on developing effective remote collaboration strategies and maintaining company culture in distributed teams.",
     "expected_output": "Remote work has transformed employment by offering global talent access and improved flexibility for employees, though it presents challenges in communication and team cohesion that organizations are addressing through new collaboration strategies.",
-    "keywords": ["remote work", "hybrid", "flexibility", "global", "collaboration", "team cohesion", "communication"]
+    "keywords": [
+      "remote work",
+      "hybrid",
+      "flexibility",
+      "global",
+      "collaboration",
+      "team cohesion",
+      "communication"
+    ]
   },
   {
     "id": "easy_004",
@@ -33,7 +57,15 @@
     "task_description": "Produce a 2-3 sentence summary of the key information",
     "input_data": "Electric vehicles (EVs) are rapidly gaining market share as battery technology improves and charging infrastructure expands. Major automotive manufacturers including Tesla, BMW, and Volkswagen now offer multiple EV models. Government incentives and environmental concerns are driving consumer adoption. However, challenges remain including high upfront costs, limited driving range compared to traditional vehicles, and the need for more widespread charging stations. Battery production also raises sustainability questions regarding mining practices and recycling.",
     "expected_output": "Electric vehicles are accelerating adoption due to improving battery technology, expanding charging infrastructure, and government incentives. Despite challenges like high costs and limited range, major automakers are investing heavily in EV development.",
-    "keywords": ["electric vehicles", "battery", "charging", "EV", "sustainability", "automakers", "adoption"]
+    "keywords": [
+      "electric vehicles",
+      "battery",
+      "charging",
+      "EV",
+      "sustainability",
+      "automakers",
+      "adoption"
+    ]
   },
   {
     "id": "easy_005",
@@ -42,6 +74,81 @@
     "task_description": "Write a concise summary capturing the essential message",
     "input_data": "Climate change represents one of humanity's greatest challenges, with rising global temperatures causing sea-level rise, extreme weather events, and ecosystem disruption. Scientific consensus confirms that human activities, particularly greenhouse gas emissions, are primary drivers of climate change. International agreements like the Paris Climate Accord aim to limit warming to 1.5-2 degrees Celsius. Countries are transitioning to renewable energy, improving energy efficiency, and implementing carbon pricing mechanisms. Individual actions including reducing consumption and supporting sustainable practices also contribute to climate mitigation efforts.",
     "expected_output": "Climate change, driven primarily by human greenhouse gas emissions, requires urgent action through renewable energy transition, policy frameworks like the Paris Agreement, and individual behavioral changes to limit warming and protect ecosystems.",
-    "keywords": ["climate change", "greenhouse gas", "renewable energy", "Paris Agreement", "warming", "ecosystem", "mitigation"]
+    "keywords": [
+      "climate change",
+      "greenhouse gas",
+      "renewable energy",
+      "Paris Agreement",
+      "warming",
+      "ecosystem",
+      "mitigation"
+    ]
+  },
+  {
+    "id": "easy_006",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize concisely",
+    "input_data": "Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. Apple. Banana. ",
+    "expected_output": "The text is an extreme repetition of the words Apple and Banana.",
+    "keywords": [
+      "repetition",
+      "apple",
+      "banana"
+    ]
+  },
+  {
+    "id": "easy_007",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this extremely succinct text.",
+    "input_data": "I like cats.",
+    "expected_output": "The author likes cats.",
+    "keywords": [
+      "author",
+      "likes",
+      "cats"
+    ]
+  },
+  {
+    "id": "easy_008",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the error log in one sentence.",
+    "input_data": "Exception in thread 'main' java.lang.NullPointerException at com.example.MyClass.method(MyClass.java:10) at com.example.MyClass.main(MyClass.java:5)",
+    "expected_output": "A NullPointerException occurred in the main thread at com.example.MyClass.method.",
+    "keywords": [
+      "nullpointerexception",
+      "main thread",
+      "method",
+      "error"
+    ]
+  },
+  {
+    "id": "easy_009",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the dialogue.",
+    "input_data": "Bob: Hey! Alice: Hi. Bob: Bye. Alice: See ya.",
+    "expected_output": "Bob and Alice exchanged brief greetings and farewells.",
+    "keywords": [
+      "bob",
+      "alice",
+      "greetings",
+      "farewells"
+    ]
+  },
+  {
+    "id": "easy_010",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize this gibberish.",
+    "input_data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "expected_output": "The text is a standard placeholder text known as Lorem ipsum, used in publishing.",
+    "keywords": [
+      "placeholder",
+      "lorem ipsum",
+      "text"
+    ]
   }
 ]

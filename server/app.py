@@ -68,7 +68,7 @@ class ResetRequest(BaseModel):
     seed: Optional[int] = None
 
 class StepRequest(BaseModel):
-    session_id: str
+    session_id: Optional[str] = None
     action: Any
 
 @app.get("/health")
@@ -129,9 +129,10 @@ def reset(req: Optional[ResetRequest] = None):
 
 @app.post("/step")
 def step(req: StepRequest):
-    if req.session_id not in sessions:
+    sid = req.session_id or last_session_id
+    if not sid or sid not in sessions:
         raise HTTPException(status_code=404, detail="Session not found")
-    s = sessions[req.session_id]
+    s = sessions[sid]
     if s["done"]:
         return {"observation": {}, "reward": 0.0, "done": True, "info": {}, "state": {}}
     action = req.action
@@ -173,13 +174,14 @@ def step(req: StepRequest):
         "done": done,
         "info": {"llm_output": output, "score": score},
         "state": {
-            "session_id": req.session_id,
+            "episode_id": sid,
             "task_id": task.get("id", ""),
             "task_description": task.get("task_description", ""),
-            "step": s["step"],
+            "step_count": s["step"],
             "done": done,
             "total_reward": s["total_reward"],
-            "best_reward": s["best_reward"]
+            "best_reward": s["best_reward"],
+            "difficulty": s["difficulty"]
         }
     }
 
@@ -195,7 +197,7 @@ def state_root():
     if last_session_id and last_session_id in sessions:
         s = sessions[last_session_id]
         return {
-            "session_id": last_session_id,
+            "episode_id": last_session_id,
             "task_id": s["task"].get("id", ""),
             "difficulty": s["difficulty"],
             "total_reward": round(s["total_reward"], 4),

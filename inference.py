@@ -144,8 +144,8 @@ def main():
         
     openai_client = OpenAI(**client_kwargs)
 
-    # In openenv.yaml, we declared 3 tasks for EASY, 3 for MEDIUM, 3 for HARD
-    tasks_per_level = 3
+    # In openenv.yaml, we declare 10 tasks for EASY, MEDIUM, and HARD
+    tasks_per_level = 10
     
     for difficulty in ["EASY", "MEDIUM", "HARD"]:
         for task_idx in range(tasks_per_level):
