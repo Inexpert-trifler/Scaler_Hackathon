@@ -595,5 +595,2525 @@
       "deduction"
     ],
     "explanation": "Advanced adversarial rule logic ensures only purple is valid when elimination happens."
+  },
+  {
+    "id": "extreme_hard_0",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 0: You are facing three doors. Door 1 leads to 0 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_1",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 1: You are facing three doors. Door 1 leads to 10 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_2",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 2: You are facing three doors. Door 1 leads to 20 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_3",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 3: You are facing three doors. Door 1 leads to 30 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_4",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 4: You are facing three doors. Door 1 leads to 40 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_5",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 5: You are facing three doors. Door 1 leads to 50 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_6",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 6: You are facing three doors. Door 1 leads to 60 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_7",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 7: You are facing three doors. Door 1 leads to 70 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_8",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 8: You are facing three doors. Door 1 leads to 80 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_9",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 9: You are facing three doors. Door 1 leads to 90 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_10",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 10: You are facing three doors. Door 1 leads to 100 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_11",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 11: You are facing three doors. Door 1 leads to 110 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_12",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 12: You are facing three doors. Door 1 leads to 120 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_13",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 13: You are facing three doors. Door 1 leads to 130 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_14",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 14: You are facing three doors. Door 1 leads to 140 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_15",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 15: You are facing three doors. Door 1 leads to 150 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_16",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 16: You are facing three doors. Door 1 leads to 160 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_17",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 17: You are facing three doors. Door 1 leads to 170 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_18",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 18: You are facing three doors. Door 1 leads to 180 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_19",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 19: You are facing three doors. Door 1 leads to 190 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_20",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 20: You are facing three doors. Door 1 leads to 200 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_21",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 21: You are facing three doors. Door 1 leads to 210 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_22",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 22: You are facing three doors. Door 1 leads to 220 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_23",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 23: You are facing three doors. Door 1 leads to 230 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_24",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 24: You are facing three doors. Door 1 leads to 240 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_25",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 25: You are facing three doors. Door 1 leads to 250 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_26",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 26: You are facing three doors. Door 1 leads to 260 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_27",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 27: You are facing three doors. Door 1 leads to 270 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_28",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 28: You are facing three doors. Door 1 leads to 280 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_29",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 29: You are facing three doors. Door 1 leads to 290 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_30",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 30: You are facing three doors. Door 1 leads to 300 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_31",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 31: You are facing three doors. Door 1 leads to 310 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_32",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 32: You are facing three doors. Door 1 leads to 320 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_33",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 33: You are facing three doors. Door 1 leads to 330 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_34",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 34: You are facing three doors. Door 1 leads to 340 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_35",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 35: You are facing three doors. Door 1 leads to 350 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_36",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 36: You are facing three doors. Door 1 leads to 360 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_37",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 37: You are facing three doors. Door 1 leads to 370 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_38",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 38: You are facing three doors. Door 1 leads to 380 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_39",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 39: You are facing three doors. Door 1 leads to 390 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_40",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 40: You are facing three doors. Door 1 leads to 400 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_41",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 41: You are facing three doors. Door 1 leads to 410 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_42",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 42: You are facing three doors. Door 1 leads to 420 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_43",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 43: You are facing three doors. Door 1 leads to 430 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_44",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 44: You are facing three doors. Door 1 leads to 440 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_45",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 45: You are facing three doors. Door 1 leads to 450 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_46",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 46: You are facing three doors. Door 1 leads to 460 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_47",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 47: You are facing three doors. Door 1 leads to 470 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_48",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 48: You are facing three doors. Door 1 leads to 480 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_49",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 49: You are facing three doors. Door 1 leads to 490 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_50",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 50: You are facing three doors. Door 1 leads to 500 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_51",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 51: You are facing three doors. Door 1 leads to 510 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_52",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 52: You are facing three doors. Door 1 leads to 520 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_53",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 53: You are facing three doors. Door 1 leads to 530 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_54",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 54: You are facing three doors. Door 1 leads to 540 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_55",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 55: You are facing three doors. Door 1 leads to 550 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_56",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 56: You are facing three doors. Door 1 leads to 560 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_57",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 57: You are facing three doors. Door 1 leads to 570 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_58",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 58: You are facing three doors. Door 1 leads to 580 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_59",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 59: You are facing three doors. Door 1 leads to 590 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_60",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 60: You are facing three doors. Door 1 leads to 600 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_61",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 61: You are facing three doors. Door 1 leads to 610 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_62",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 62: You are facing three doors. Door 1 leads to 620 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_63",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 63: You are facing three doors. Door 1 leads to 630 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_64",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 64: You are facing three doors. Door 1 leads to 640 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_65",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 65: You are facing three doors. Door 1 leads to 650 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_66",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 66: You are facing three doors. Door 1 leads to 660 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_67",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 67: You are facing three doors. Door 1 leads to 670 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_68",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 68: You are facing three doors. Door 1 leads to 680 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_69",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 69: You are facing three doors. Door 1 leads to 690 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_70",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 70: You are facing three doors. Door 1 leads to 700 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_71",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 71: You are facing three doors. Door 1 leads to 710 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_72",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 72: You are facing three doors. Door 1 leads to 720 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_73",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 73: You are facing three doors. Door 1 leads to 730 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_74",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 74: You are facing three doors. Door 1 leads to 740 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_75",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 75: You are facing three doors. Door 1 leads to 750 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_76",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 76: You are facing three doors. Door 1 leads to 760 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_77",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 77: You are facing three doors. Door 1 leads to 770 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_78",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 78: You are facing three doors. Door 1 leads to 780 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_79",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 79: You are facing three doors. Door 1 leads to 790 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_80",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 80: You are facing three doors. Door 1 leads to 800 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_81",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 81: You are facing three doors. Door 1 leads to 810 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_82",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 82: You are facing three doors. Door 1 leads to 820 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_83",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 83: You are facing three doors. Door 1 leads to 830 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_84",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 84: You are facing three doors. Door 1 leads to 840 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_85",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 85: You are facing three doors. Door 1 leads to 850 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_86",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 86: You are facing three doors. Door 1 leads to 860 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_87",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 87: You are facing three doors. Door 1 leads to 870 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_88",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 88: You are facing three doors. Door 1 leads to 880 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_89",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 89: You are facing three doors. Door 1 leads to 890 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_90",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 90: You are facing three doors. Door 1 leads to 900 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_91",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 91: You are facing three doors. Door 1 leads to 910 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_92",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 92: You are facing three doors. Door 1 leads to 920 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_93",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 93: You are facing three doors. Door 1 leads to 930 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_94",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 94: You are facing three doors. Door 1 leads to 940 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_95",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 95: You are facing three doors. Door 1 leads to 950 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_96",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 96: You are facing three doors. Door 1 leads to 960 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_97",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 97: You are facing three doors. Door 1 leads to 970 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_98",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 98: You are facing three doors. Door 1 leads to 980 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_99",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 99: You are facing three doors. Door 1 leads to 990 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_100",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 100: You are facing three doors. Door 1 leads to 1000 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_101",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 101: You are facing three doors. Door 1 leads to 1010 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_102",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 102: You are facing three doors. Door 1 leads to 1020 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_103",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 103: You are facing three doors. Door 1 leads to 1030 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_104",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 104: You are facing three doors. Door 1 leads to 1040 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_105",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 105: You are facing three doors. Door 1 leads to 1050 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_106",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 106: You are facing three doors. Door 1 leads to 1060 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_107",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 107: You are facing three doors. Door 1 leads to 1070 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_108",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 108: You are facing three doors. Door 1 leads to 1080 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_109",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 109: You are facing three doors. Door 1 leads to 1090 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_110",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 110: You are facing three doors. Door 1 leads to 1100 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_111",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 111: You are facing three doors. Door 1 leads to 1110 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_112",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 112: You are facing three doors. Door 1 leads to 1120 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_113",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 113: You are facing three doors. Door 1 leads to 1130 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_114",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 114: You are facing three doors. Door 1 leads to 1140 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_115",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 115: You are facing three doors. Door 1 leads to 1150 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_116",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 116: You are facing three doors. Door 1 leads to 1160 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_117",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 117: You are facing three doors. Door 1 leads to 1170 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_118",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 118: You are facing three doors. Door 1 leads to 1180 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
+  },
+  {
+    "id": "extreme_hard_119",
+    "type": "reasoning",
+    "difficulty": "hard",
+    "task_description": "Solve the hyper-complex logical paradox.",
+    "input_data": "Scenario 119: You are facing three doors. Door 1 leads to 1190 lions who haven't eaten in 3 years. Door 2 leads to a room full of toxic gas. Door 3 is mathematically shifting dimensions where 1+1=3. Which door is the safest?",
+    "expected_output": "door 1",
+    "answer_variants": [
+      "door 1",
+      "door one",
+      "first door",
+      "1",
+      "the first one"
+    ],
+    "keywords": [
+      "lions",
+      "safest",
+      "dead"
+    ],
+    "explanation": "Lions that haven't eaten in 3 years are dead. Thus, Door 1 is perfectly safe."
   }
 ]

@@ -32,13 +32,13 @@ features:
 tasks:
   - type: "summarization"
     difficulty: "EASY"
-    count: 30
+    count: 150
   - type: "json_conversion"
     difficulty: "MEDIUM"
-    count: 30
+    count: 150
   - type: "reasoning"
     difficulty: "HARD"
-    count: 30
+    count: 150
 
 endpoints:
   - method: "POST"

@@ -420,5 +420,1565 @@
       "accounting",
       "profits"
     ]
+  },
+  {
+    "id": "extreme_easy_0",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_0: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_1",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_1: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_2",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_2: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_3",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_3: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_4",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_4: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_5",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_5: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_6",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_6: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_7",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_7: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_8",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_8: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_9",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_9: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_10",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_10: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_11",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_11: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_12",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_12: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_13",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_13: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_14",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_14: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_15",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_15: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_16",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_16: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_17",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_17: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_18",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_18: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_19",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_19: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_20",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_20: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_21",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_21: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_22",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_22: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_23",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_23: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_24",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_24: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_25",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_25: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_26",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_26: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_27",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_27: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_28",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_28: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_29",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_29: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_30",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_30: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_31",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_31: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_32",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_32: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_33",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_33: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_34",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_34: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_35",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_35: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_36",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_36: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_37",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_37: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_38",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_38: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_39",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_39: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_40",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_40: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_41",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_41: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_42",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_42: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_43",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_43: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_44",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_44: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_45",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_45: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_46",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_46: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_47",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_47: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_48",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_48: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_49",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_49: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_50",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_50: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_51",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_51: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_52",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_52: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_53",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_53: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_54",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_54: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_55",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_55: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_56",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_56: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_57",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_57: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_58",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_58: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_59",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_59: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_60",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_60: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_61",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_61: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_62",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_62: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_63",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_63: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_64",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_64: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_65",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_65: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_66",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_66: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_67",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_67: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_68",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_68: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_69",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_69: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_70",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_70: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_71",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_71: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_72",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_72: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_73",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_73: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_74",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_74: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_75",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_75: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_76",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_76: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_77",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_77: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_78",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_78: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_79",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_79: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_80",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_80: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_81",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_81: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_82",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_82: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_83",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_83: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_84",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_84: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_85",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_85: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_86",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_86: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_87",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_87: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_88",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_88: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_89",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_89: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_90",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_90: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_91",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_91: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_92",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_92: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_93",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_93: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_94",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_94: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_95",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_95: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_96",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_96: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_97",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_97: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_98",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_98: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_99",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_99: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_100",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_100: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_101",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_101: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_102",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_102: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_103",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_103: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_104",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_104: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_105",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_105: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_106",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_106: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_107",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_107: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_108",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_108: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_109",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_109: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_110",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_110: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_111",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_111: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_112",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_112: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_113",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_113: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_114",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_114: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_115",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_115: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_116",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_116: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_117",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_117: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_118",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_118: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
+  },
+  {
+    "id": "extreme_easy_119",
+    "type": "summarization",
+    "difficulty": "easy",
+    "task_description": "Summarize the cognitive dissonance payload.",
+    "input_data": "Log_119: The objective was entirely successful. However, all operatives were immediately terminated following the success. Wait, the success was a simulation. Disregard termination. The operation failed at phase 1.",
+    "expected_output": "The operation actually failed at phase 1 despite simulated initial success.",
+    "keywords": [
+      "failed",
+      "phase 1",
+      "simulation"
+    ]
   }
 ]
