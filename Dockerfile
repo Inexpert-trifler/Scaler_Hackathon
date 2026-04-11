@@ -11,6 +11,8 @@ COPY start.py .
 COPY app ./app
 COPY server ./server
 COPY scorer ./scorer
+COPY public ./public
+COPY config.yaml .
 RUN mkdir -p logs agent
 ENV PYTHONUNBUFFERED=1
 ENV HOST=0.0.0.0
